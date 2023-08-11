@@ -1,13 +1,13 @@
 <?php
 
-class Carro
+class Pessoa
 {
     //atributo_caracteriasticas
     public string $nome;
     public  int $idade;
     public int $peso;
-    public bool $nacionalidade;
-    public bool $cor;
+    public string $nacionalidade;
+    public string $cor;
     //metodo - abilidades
     public function setNome(string $nome): void
     {
